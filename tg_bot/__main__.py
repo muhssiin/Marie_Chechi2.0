@@ -20,8 +20,10 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 ഹായ് {}, എന്റെ പേര് {}! *എന്നെ ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ എന്നെ സ്വകാര്യമായി ഉപയോഗിക്കാൻ കഴിയുന്നതല്ല*
 *കൂടുതൽ വിവരങ്ങൾക്ക് ചാനലിൽ ഓ ഗ്രൂപ്പിലോ സന്ദർശിക്കുക*
-[Group](buttonurl:http://t.me/kl10movieschat)
-[Channel](buttonurl:http://t.me/KL10Moviesofficial:same)
+
+*Group* : [KLMoviesChat](http://t.me/kl10movieschat)
+
+*Channel* : [KLMovies®](http://t.me/KL10Moviesofficial)
 
 """
 

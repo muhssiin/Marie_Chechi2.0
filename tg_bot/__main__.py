@@ -18,13 +18,8 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-ഹായ് {}, എന്റെ പേര് {}! *എന്നെ ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ എന്നെ സ്വകാര്യമായി ഉപയോഗിക്കാൻ കഴിയുന്നതല്ല*
-*കൂടുതൽ വിവരങ്ങൾക്ക് ചാനലിൽ ഓ ഗ്രൂപ്പിലോ സന്ദർശിക്കുക*
-
-*Group* : [KLMoviesChat](http://t.me/kl10movieschat)
-
-*Channel* : [KLMovies®](http://t.me/KL10Moviesofficial)
-
+*ഹായ്* {}, *എന്റെ പേര്* {}! *ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ് പക്ഷെ വെറുതെ സമയം കളയണ്ട എന്നെ KL10MoviesChat ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ*
+[Channel](buttonurl:http://t.me/KL10Moviesofficial) 
 """
 
 HELP_STRINGS = """
@@ -36,7 +31,6 @@ HELP_STRINGS = """
  - /start: Botനെ Start ചെയ്യാൻ...
  - /help: ഈ മെസ്സേജ് നിങ്ങളുടെ PM വരാൻ....
  - /help <module name>: ഒരു MODULE നെക്കുറിച്ചുള്ള വിവരം നിങ്ങളുടെ PMൽ വരാൻ....
- - /donate: സംഭാവന നൽകുന്നതിനെക്കുറിച്ചുള്ള വിവരങ്ങൾ അറിയാൻ!
  - /settings:
    - in PM:നിങ്ങൾ സെറ്റ് ചെയ്തിട്ടുള്ള SETTINGS എന്തൊക്കെ ആണെന്ന് അറിയാൻ....
    - in a group:ഗ്രൂപ്പിൽ കൊടുത്താലും  PMൽ settings വരുന്നതാണ്....

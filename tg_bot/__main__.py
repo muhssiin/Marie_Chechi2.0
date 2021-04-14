@@ -19,7 +19,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 *ഹായ്* {}, *എന്റെ പേര്* {}! *ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ് പക്ഷെ വെറുതെ സമയം കളയണ്ട എന്നെ KL10MoviesChat ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ*
-[Channel](buttonurl:http://t.me/KL10Moviesofficial) 
+
+                                       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Help",url="t.me/{}?start=help".format(bot.username))]]))
 """
 
 HELP_STRINGS = """

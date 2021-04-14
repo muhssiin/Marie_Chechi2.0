@@ -25,7 +25,6 @@ Official channel
 🖇 @MCubeMediaofficial
 ഈ ചാനലിൽ  കയറി ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യുക
 """
-reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Channel",url="t.me/{}?start=mcubemediaofficial".format(bot.username))]]))
 HELP_STRINGS = """
 നമസ്കാരം ! എന്റെ പേര് *{}*.
 

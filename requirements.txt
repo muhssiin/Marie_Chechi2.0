@@ -17,5 +17,3 @@ zalgo_text
 pynewtonmath
 bs4
 telegraph
-telethon
-python-decouple
